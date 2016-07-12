@@ -1,0 +1,34 @@
+﻿<Window x:Class="FramNavgationDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:ControlLibs;assembly=ControlLibs"
+        xmlns:converters="clr-namespace:FramNavgationDemo"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <converters:NaviConverter x:Key="MultiConverter"></converters:NaviConverter>
+        <Style TargetType="{x:Type controls:NavButton}">
+            <Setter Property="Command" Value="{Binding NaviCmd}"/>
+            <Setter Property="CommandParameter">
+                <Setter.Value>
+                    <MultiBinding Converter="{StaticResource MultiConverter}">
+                        <Binding ElementName="_innerframe"/>
+                        <Binding Path="NavId" RelativeSource="{RelativeSource Self}" />
+                    </MultiBinding>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <controls:NavButton x:Name="FirstPageBtn" NavId="P000001" >1st Page</controls:NavButton>
+            <controls:NavButton NavId="P000002" >2d Page</controls:NavButton>
+            <controls:NavButton NavId="P000003" >3td Page</controls:NavButton>
+            <controls:NavButton NavId="P000004" >4th Page</controls:NavButton>
+        </StackPanel>
+        <Frame Grid.Row="2" Height="Auto" Width="Auto" Name="_innerframe" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

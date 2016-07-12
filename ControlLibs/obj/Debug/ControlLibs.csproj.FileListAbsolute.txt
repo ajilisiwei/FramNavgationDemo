@@ -1,0 +1,12 @@
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\bin\Debug\ControlLibs.dll
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\bin\Debug\ControlLibs.pdb
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\ControlLibs_MarkupCompile.cache
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\ControlLibs_MarkupCompile.lref
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\NavButton\NavButtonStyle.baml
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\ControlLibs.g.resources
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\ControlLibs.Properties.Resources.resources
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\ControlLibs.csproj.GenerateResource.Cache
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\ControlLibs.dll
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\ControlLibs.pdb
+E:\2.Development\开发资料\WPF Demoes\FramNavgationDemo\ControlLibs\obj\Debug\ControlLibs.csprojResolveAssemblyReference.cache
